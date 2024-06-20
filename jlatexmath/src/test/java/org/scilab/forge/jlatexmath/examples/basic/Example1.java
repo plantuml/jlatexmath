@@ -102,6 +102,7 @@ public class Example1 {
         jl.setForeground(new Color(0, 0, 0));
         icon.paintIcon(jl, g2, 0, 0);
         File file = new File("target/Example1.png");
+	file.getParentFile().mkdirs();
         ImageIO.write(image, "png", file.getAbsoluteFile());
     }
 }
