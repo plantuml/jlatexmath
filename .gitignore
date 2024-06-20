@@ -5,3 +5,6 @@ target
 /bin
 /dist
 *~
+/build
+.gradle
+**/build
